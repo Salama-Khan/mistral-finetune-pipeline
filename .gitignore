@@ -1,0 +1,24 @@
+.venv/
+venv/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+.env
+.env.*
+*.token
+
+# local model artefacts — adapters live on Drive / HF, not in git
+mistral-bio-checkpoints/
+/feedbio/
+offload/
+models/*.joblib
+*.bin
+*.safetensors
+adapter_config.json
+adapter_model.*
+
+.DS_Store
